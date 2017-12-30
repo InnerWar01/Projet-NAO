@@ -1,0 +1,101 @@
+body
+{
+	background-color:#f2f2f2 !important;
+	color:black;
+	text-align:center;
+}
+
+#blockly
+{
+	border:1px solid #CCC;
+	padding-left:0;
+	height:300px;
+}
+#blockly_editor
+{
+	width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#description
+{
+	width:49%;
+	float:right;
+	margin-top:0;
+}
+#button_run, #button_cancel, #button_next
+{
+	margin-left:2%;
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	position: relative;
+    width: 100%;
+}
+
+#button_next {
+    margin-top: 5%;
+}
+
+a.btn {
+    color: black;
+    text-decoration: none;
+    display: inline;
+}
+
+#button_run {
+	background-image: url(http://localhost/ProjetNao/assets/img/runBabyRun.png);
+	background-repeat: no-repeat;
+    background-size: 20px 20px;
+	background-position: right;
+	padding-right: 28px;
+}
+
+#btn {
+	float: right;
+    margin-top: -20%;
+    margin-right: 5%;
+}	
+
+#btnRun{
+	margin-bottom: 5%;
+}
+
+#ex_instruction {
+    padding-top: 5%;
+    padding-left: 30%;
+    width: 70%;
+}
+
+#ex_instr {
+    background-image: url(http://localhost/ProjetNao/assets/img/exercise.png);
+	background-repeat: no-repeat;
+    background-size: 12% 100%;
+	background-position: left top;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#exo_id {
+    text-decoration: underline;
+    color: #2180ac;
+}
+
+

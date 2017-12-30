@@ -1,0 +1,126 @@
+body {
+	background-color: #f2f2f2;
+	line-height: 200%;
+	background-image: url(http://localhost/ProjetNAO/assets/img/fly.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+button {
+	display: inline-block;
+    margin-bottom: 8%;
+    margin-left: 40%;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    background-color: #ecf2f9;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 10px 25px 10px 25px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	position: relative;
+}
+
+button:hover {
+	background-color: #b3cce6;
+}
+
+legend {
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	font-size: 150%;
+	font-weight: bold;
+	color: #404040;
+	padding-bottom: 5%;
+}
+
+.error {
+	color: hsl(0, 100%, 30%);
+	font-size: 14px;
+}
+
+.err {
+	text-align: center;
+}
+
+input {
+	font-family: 'Source Sans Pro';
+	border: 3px solid #888888;
+	width: 90%;
+	padding-left: 2%;
+	margin: 2% 2% 2% 2%;
+}
+
+input:focus {
+	border: 3px solid #888888;
+}
+
+#form_container {
+	position: relative;
+	margin: 5% 25% 5% 25%;
+	width: 50%;
+	box-shadow: 1px 0 11px rgba(50, 50, 50, 0.74);
+	background-color: rgba(255,255,255,.2);
+}
+
+#form-content {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-top: 5%;
+	text-align: left;
+	position: relative;
+}
+
+#submit {
+	margin-bottom: 15%;
+	margin-left: 5%;
+	background-color: rgba(136, 136, 136, 0.68);
+	color: rgb(255, 255, 255);
+	border-radius: 3px;
+	font-size: 150%;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color:  #888888;
+	border: 3px solid #888888;
+}
+
+* {
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.sign {
+	padding: 5% 0 5% 0;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #888888;
+	font-size: 14px;
+}
+
+a:hover {
+	color:  #6e2caf;;
+}
+
+*:hover {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+}

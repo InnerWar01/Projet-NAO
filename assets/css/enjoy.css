@@ -1,0 +1,81 @@
+div#intro_left {
+  text-align: left!important;
+  float: left;
+  width: 50%;
+  margin-bottom: 10%;
+  background-image: url(http://localhost/ProjetNAO/assets/img/enjoy/hello_there.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img#img_intro {
+  width: 100%;
+  border-width:6px;
+  border-color:black;
+  box-shadow: 1px 1px 12px #555;
+  padding: 7%;
+}
+
+div#col_enjoy_right {
+  float: right;
+  width: 50%;
+  margin-top: 6%;
+  margin-bottom: 7%;
+}
+
+h2#hello {
+  padding: 7%;
+  margin-top: 10%;
+}
+
+#datasheet {
+  margin-top: 30px;
+}
+
+div#enjoy {
+  background: url(http://localhost/ProjetNAO/assets/img/enjoy/thinking.png) no-repeat;
+  background-position: right bottom;
+  clear: both;
+}
+
+img#img_enjoy {
+  display: block;
+  margin-left: auto;
+  margin-right: 600px;
+  width: 500px;
+  height: 700px;
+  margin-bottom: 20px;
+}
+
+div#div_desc {
+  display: block;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 73%;
+  margin-right: 10%;
+  margin-bottom: 30%;
+  font-size: 25px;
+  text-align: center;
+}
+
+ul#ul_enjoy {
+    text-align: center;
+    list-style: none;
+}
+
+#ul_enjoy li {
+    padding: 2%;
+}
+
+a.li_enjoy {
+  text-decoration: none;
+}
+
+a.li_enjoy:hover {
+  color: #7a29a3;
+}
+
+p#p_enjoy {
+  text-align: center;
+  padding-top: 35%;
+}

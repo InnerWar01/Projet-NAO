@@ -1,0 +1,39 @@
+body {
+  background-color: #f2f2f2;
+}
+
+div#slide{
+  text-align:center;
+  padding:20%;
+  background:url(http://localhost/ProjetNAO/assets/img/slider0.png) no-repeat;
+  background-size:cover;
+  margin-bottom:2%;
+}
+
+div.jumbotron{
+  border-radius:20px;
+  background-color:rgba(0,0,0,0.30);
+  margin:auto;
+  color:white;
+}
+
+h3 {
+  background-color:rgba(0,0,0,0.30);
+  margin:auto;
+}
+
+div#col_left.col-md-6{
+  background:url(http://localhost/ProjetNAO/assets/img/home_par1.png) no-repeat;
+  background-size:cover;
+  background-color:transparent;
+  padding:20%;
+}
+
+
+div.row{
+  margin-top:2%;
+}
+
+p.home_p {
+  margin-top:8%;
+}

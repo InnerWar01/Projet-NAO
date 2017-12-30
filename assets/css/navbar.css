@@ -1,0 +1,39 @@
+img#logo{
+  float:left;
+  background-size:cover;
+  height:120%;
+}
+
+img#logo_img{
+  float:right;
+  background-size:cover;
+  height:120%;
+}
+
+nav#navbar.navbar.navbar-default{
+  background-size:cover;
+  background-color:#3973ac;
+  margin-bottom:0!important;
+  border-color: #3973ac;
+}
+
+div#col_right.col-md-6{
+  float:right;
+  margin-top:5%;
+}
+
+h2{
+  font-family:Times New Roman;
+  font-size:40px;
+  color:black;
+  text-align: center;
+}
+
+div.row{
+  margin-top:2%;
+  margin-right: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #2a9fd6;
+}

@@ -1,0 +1,85 @@
+body {
+  background-color: #f2f2f2;
+}
+
+#left, #img {
+    display: table-cell;
+}
+
+#left {
+    width:100%;
+    background-image: url(http://localhost/ProjetNAO/assets/img/welcome.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#exos {
+	display:none;
+	text-align: left;
+    width:30%;
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+#button {
+    margin-left: 50%;
+}
+
+#exos ul li a.ex {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding-left: 40%;
+}
+
+a.ex {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	background-image: url("http://localhost/ProjetNAO/assets/img/test.png");
+	background-repeat: no-repeat;
+    background-size: 20px 20px;
+	background-position: left center;
+}
+
+li.exer {
+    padding-top: 16px;
+}
+
+#exos ul li a:hover {
+    color: #b3cce6;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+}
+
+button {
+    color: black;
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	position: relative;
+}
+
+button:hover {
+	background-color: #b3cce6;
+}
+    
