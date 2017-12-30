@@ -96,7 +96,7 @@ while 1:
     verif=0
     i=2
     b=0
-    conn = mysql.connector.connect(host="localhost",user="root",password="1991", database="panc")
+    conn = mysql.connector.connect(host="localhost",user="",password="", database="panc")
     cursor = conn.cursor()
 
     cursor.execute("""SELECT Block_id, Block_value , Type_action, Name_action, Rank
